@@ -1,0 +1,42 @@
+# @,q of question, q of answer
+@ 10 3
+1. How many gears are in Shimano Dura-Ace 2022?
+   1 - 11
+   2 - 12
+   3 - 13
+2. How many gear teeth in compact system?
+   1 - 48/30
+   2 - 52/36
+   3 - 50/34
+3. The fastest bike?
+   1 - bmx
+   2 - mtb
+   3 - road
+4. The most popular bike tech brand in the world?
+   1 - sram
+   2 - shimano
+   3 - bosch
+5. The last winner of TDF?
+   1 - Froome
+   2 - Vingegaard
+   3 - Pogacar
+6. Choose the bike brand?
+   1 - BMC
+   2 - BMX
+   3 - BMW
+7. Choose the bike part?
+   1 - hammer
+   2 - starter
+   3 - derailleur
+8. Choose standart width of bike sadle?
+   1 - 133 mm
+   2 - 131 mm
+   3 - 135 mm
+9. A popular characteristic of a cyclist?
+   1 - stiffness
+   2 - strength
+   3 - power
+10. Choose a most bike-friendly country?
+   1 - Turkey
+   2 - Italy
+   3 - Russia
