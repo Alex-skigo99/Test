@@ -16,7 +16,11 @@ def get_answer_num():
       
     # main
 set_of_choice = list()
-f_q = open('questions.txt','r')
+import os
+a = os.path.basename(__file__)
+work_dir = os.path.abspath(__file__).replace(a, '')
+print(work_dir)
+f_q = open(work_dir + 'questions.txt','r')
 str = '#'
 while str[0] == '#':
   str = f_q.readline()
@@ -40,13 +44,9 @@ for i in range(0,q_ques):
   answer_num = get_answer_num()
   set_of_choice.append(answer_num)
 f_q.close()
-#n = 1  #счетчик кол-ва ответов
-#for el in set_of_choice:
-#  print(f"Question {n} choice  - {el}")
-#  n = n+1
 print(set_of_choice)
     #читаем правильные ответы
-f_ans = open('answers.txt', 'r')
+f_ans = open(work_dir + 'answers.txt', 'r')
 answer_str = f_ans.readline()
 f_ans.close()
 answer_list = [int(c) for c in answer_str if c != ',']
