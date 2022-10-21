@@ -16,7 +16,7 @@ def get_answer_num():
       
     # main
 set_of_choice = list()
-f_q = open('questions','r')
+f_q = open('questions.txt','r')
 str = '#'
 while str[0] == '#':
   str = f_q.readline()
@@ -46,7 +46,7 @@ f_q.close()
 #  n = n+1
 print(set_of_choice)
     #читаем правильные ответы
-f_ans = open('answers', 'r')
+f_ans = open('answers.txt', 'r')
 answer_str = f_ans.readline()
 f_ans.close()
 answer_list = [int(c) for c in answer_str if c != ',']
